@@ -1,0 +1,36 @@
+@media  (max-width:600px){
+    .row{
+        align-items: center;
+        flex-direction: column;
+    }
+    .tm-gallery{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .tm-welcome-section {
+        margin: 30px auto;
+        max-width: 600px;
+    }
+    .placeholder {
+        height: 200px;
+    }
+    .tm-gallery-page {
+        max-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tm-site-logo {
+        display: inline-block;
+        width: 60px;
+    }
+    .tm-site-title {
+        font-size: 1.8rem;
+        text-indent: 30px;
+    }
+    .tm-site-description {
+        font-size: 0.8rem;
+    }
+    .col-12 {
+        max-width: 75%;
+    }
+}

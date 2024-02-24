@@ -1,0 +1,187 @@
+/*Resolution: 1650 * 1050 (Recommended)*/
+/*Scale: 100% (Recommended)*/
+
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+
+    /*General*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    font-family: 'Karla';
+    color: #352B2A;
+}
+body{
+    background-image: url('images/poster.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1em 1.6em;
+}
+    /*Containers*/
+.site-content{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+.container{
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.mind-understanding .container{
+    max-width: 650px;
+}
+    /*Header*/
+.site-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.site-header nav ul{
+    display: flex;
+    list-style: none outside;
+}
+.site-header nav ul li a{
+    color: white;
+    font-size: 1.12em;
+}
+    /*Banner*/
+.banner{
+    color: white;
+    
+}
+.banner h1{
+    font-size: 5.5em;
+    font-family: 'Cormorant Infant';
+    padding: 2em 0 1em 0;
+}
+    /*Testemonials*/
+.testemonials{
+    background-color: #F8F0E9;
+}
+.testemonials .quote{
+    margin-top: 0.5em;
+    font-size: 4.2em;
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    padding-bottom: 1em;
+    line-height: 0.8;
+
+}
+    /*Support*/
+.support{
+    background-color: #E14747;
+   padding: 4em 0;
+   color: white;
+}
+    /*Mind-Understanding*/
+.mind-understanding .mind-title{
+    font-size: 3.5em;
+    font-family: 'Cormorant Infant';
+    text-align: center;
+}
+.mind-understanding .container{
+    gap: 3.5em;
+}
+.mind-understanding p {
+    font-size: 1.22em ;
+    padding: 1.5em 0;
+}
+.mind-understanding span{
+    display: block;
+    border: 1px solid black;
+    padding: 1em 2em;
+    max-width: 200px;
+}
+    /*Local-guide*/
+.local-guide{
+    background-color: #E14747 ;
+    padding: 5em 0 4em 0;
+    color: white;
+    text-align: center;
+}
+.local-guide h1{
+    font-size: 3.2em;
+    font-family: 'Cormorant Infant';
+    padding-bottom: 0.5em;
+}
+.local-guide p {
+    font-size: 1.3em;
+}
+.local-guide .sexy-button a{
+     background-color: #FAD87A;
+     padding: 0.8em 1.2em;
+     border-radius: 40px;
+}
+.local-guide .sexy-button{
+    margin-top: 3em;
+}
+    /*Footer*/
+.footer{
+    background-color: #352B2A;;
+    color: white;
+    gap: 0;
+    align-items: start;
+    padding-left: 5em;
+}
+.footer p{
+    line-height: 1.5;
+}
+.footer .copyright{
+    color: #58483E;
+}
+    /*Buttons*/
+.first-button{
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    right: 13em;
+    padding: 0.5em 0.7em;
+}
+.first-button::after{
+    content: '>';
+}
+.second-button{
+    padding:0.5em 0.7em;
+    border: 1px solid black;
+    text-align: center;
+}
+    /*Logo*/
+.logo a {
+    display: block;
+    background-image: url('images/logo.webp');
+    overflow: hidden;
+    text-indent: -200vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.site-header .logo a {
+    width: 130px;
+    height: 80px;
+    margin-left: 2em;
+}
+.footer .logo a {
+    width: 80px;
+    height: 50px;
+}
+
+

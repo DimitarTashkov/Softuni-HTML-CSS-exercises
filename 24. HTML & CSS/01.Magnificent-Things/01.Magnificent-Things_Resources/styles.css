@@ -1,0 +1,66 @@
+/*Resolution: 1680 * 1050px*/
+/*Scale: 100%(Recommended)*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+    font-family: 'Inter';
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.banner img{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.container{
+    max-width: 1060px;
+    display: flex;
+    gap: 2em;
+    padding: 4.5em;
+    margin: 0 auto;
+    background-color: #85DCFF;
+}
+.first-column {
+    flex: 0 0 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.second-column{
+    flex: 0 0 380px;
+}
+.first-column .title{
+    font-size: 3.7em;
+    padding-bottom: 0.5em;
+    line-height: 1; 
+}
+.buttons{
+    margin-top: 2.5em;
+}
+.button{
+    padding: 0.9em 2em;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+}
+.first{
+    background-color: #42AA59;
+    border: 1px solid black;
+}
+.second{
+    background-color: white;
+    margin-left: 0.8em;
+}
+.first:hover{
+    background-color: black;
+    color: white;
+}
+

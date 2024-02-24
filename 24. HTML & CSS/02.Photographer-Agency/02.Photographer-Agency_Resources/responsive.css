@@ -1,0 +1,55 @@
+/*Resolution: 1680 * 1050*/
+/*Scale: 100%(Recommended)*/
+
+@media (max-width:600px){
+    header{
+        padding: 1rem 1.5rem;
+    }
+    header nav{
+        margin: 0;
+        flex-direction: column;
+    }
+    header nav ul li a {
+        padding-right: 0;
+        display: block;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .choose-us p {
+        max-width: 370px;
+    }
+    .about-us p:nth-child(2) {
+        font-style: italic;
+        padding-bottom: 2rem;
+    }
+    .about-us p:nth-child(3) {
+        width: auto;
+        margin: 0 auto;
+    }
+    .header-title{
+        padding: 1em 0;
+    }
+    .header-title h1 {
+        font-size: 32px;
+        padding-bottom: 0.3em;
+    }
+    .header-title p {
+        font-size: 18px;
+    }
+    .header-title button{
+        font-size: 15px;
+    }
+    .team-description ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 3em;
+    }
+    .team-description ul li img {
+        width: 150px;
+        height: auto;
+        padding-bottom: 0.3rem;
+    }
+}

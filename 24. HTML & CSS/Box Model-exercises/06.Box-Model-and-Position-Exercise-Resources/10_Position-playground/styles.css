@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card{
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 0.4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.viewport{
+    height: 100vh;
+    position: relative;
+    
+}
+
+
+
+.viewport :nth-child(1){
+    background-image: 
+    radial-gradient(
+      farthest-corner circle at 50% 50% in oklch, 
+      oklch(80% .3 34) 0%, oklch(90% .3 200) 100%
+    )
+  ;
+}
+.viewport  :nth-child(2){
+    background-image: 
+    linear-gradient(
+      to right in oklab, 
+      oklch(70% 0.5 340) 0%, oklch(90% 0.5 200) 100%
+    )
+  ;
+}

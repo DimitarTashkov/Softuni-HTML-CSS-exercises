@@ -1,0 +1,37 @@
+.our-team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.our-team .Person{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 0 30%;
+}
+.our-team h3{
+    text-align: center;
+    flex: 0 0 100%;
+
+}
+.our-team h3::after{
+    content: '';
+    width: 2em;
+    height: 1px;
+    position: absolute ;
+    bottom: 0;
+    left: 50;
+    transform: translate(-50%,-50%);
+    border-bottom: 3px solid black;
+}
+.our-team .Person img{
+    display: block;
+    width: 5em;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}

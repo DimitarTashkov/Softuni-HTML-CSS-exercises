@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display:  flex;
+            flex-direction: column;
+            gap: 1em;
+            padding: 2em;
+        }
+
+        header,div,nav,footer{
+            background-color: lightblue;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+        ul li{
+            display: flex;
+            flex-direction: column;        
+        }
+        header,footer{
+            display: flex;
+            align-items: center;
+        }
+        header {
+            padding: 1em;
+        }
+        main div:nth-child(1) a {
+            padding: 0.5em 0.7em;
+        }
+        main div:nth-child(2) ul{
+            padding: 1em;
+        }
+        main div:nth-child(2) h1{
+            padding: 0.5em 0.4em;
+        }
+        @media (min-width:500px) {
+           
+            main{
+                flex-direction: row;
+            }
+            main div:nth-child(1){
+                flex: 0 0 10%;
+            }
+            main div:nth-child(2){
+                flex: 1 0 0;
+            }
+        }
+
+       
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome</h1>
+    </header>
+
+    <main>
+        <div>
+            <nav>
+                <ul style="list-style-type: circle;">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Tasks</a></li>
+                    <li><a href="#">Create</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div> 
+            <h1>Tasks: 6</h1>
+            <ul>
+                <li>Open: 3</li>
+                <li>In Progress: 1</li>
+                <li>Done: 2</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2021 - Task Board</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    font: 16px/1.5 Helvetica,sans-serif;
+    padding: 4em;
+}
+header{
+    border-bottom: 2px solid #ccc;
+}
+
+header .site-title{
+    color: #000;
+    text-decoration: 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header .site-title,header nav{
+    display: inline-block;
+}
+nav ul{
+    margin: 0px;
+    padding: 0 0 0 0.4em;
+}
+nav ul li{
+    display: inline;
+    padding: 0 0.5em;
+}
+nav a {
+    color: #090;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}

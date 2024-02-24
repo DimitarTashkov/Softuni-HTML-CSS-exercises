@@ -1,0 +1,18 @@
+.sign-up{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    background-color: purple;
+}
+.sign-up h3::after{
+    content: '';
+    width: 2em;
+    height: 1px;
+    border-bottom: 3px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 50;
+    transform: translate(-50%,-50%);
+
+}

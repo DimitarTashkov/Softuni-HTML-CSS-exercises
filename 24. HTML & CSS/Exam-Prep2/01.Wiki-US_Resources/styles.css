@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font: 18px/1.3 Agbalumo serif;
+    font-weight: bold;
+}
+body{
+    padding: 2em;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+header .title{
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-top: 1em;
+}
+header .country{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 0.3em;
+}
+.container{
+    max-width: 840px;
+    margin: 0 auto;
+    background-color: #D5EBEA;
+    border: 2px solid black;
+}
+.columns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    background-color: white;
+    justify-content: center;
+    padding-top: 1em;
+    font-style: italic;
+}
+.columns .column{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-indent: 2em;
+}
+.column.first{
+    border: 2px solid black;
+    padding: 0.5em;
+    flex: 0 0 290px;
+    font-size: 0.7em;
+}
+.column.second{
+    flex: 0 1 470px;
+}
+.facts{
+    flex: 1 0 auto;
+}
+.facts  span{
+    color: white;
+   background-color: black;
+   padding: 0.2em 2em;
+   font-size: 1.3em;
+}
+.characteristic{
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+}
+.characteristic ul{
+    list-style: none outside;
+}
+.characteristic ul li{
+    padding: 0.2em 0em;
+}

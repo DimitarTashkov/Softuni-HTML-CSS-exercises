@@ -1,0 +1,28 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.headings{
+    font-family: Georgia, serif;
+}
+blockquote{
+    border-left-color: rgb(221,221,221);
+    font-style: italic;
+    margin-bottom: 50px;
+    border-left: 1px;
+}
+table{
+    width: 100%;
+    border: 0.5px solid gray;
+}
+table thead th{
+    border: 0.5px solid gray;
+    background-color: darkgray;
+}
+table tbody th{
+    border: 0.5px solid gray;
+}
+blockquote p:last-child{
+    text-align: right;
+}

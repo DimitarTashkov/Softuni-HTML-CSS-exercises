@@ -1,0 +1,16 @@
+
+.need-website{
+    display: flex;
+    margin: 2em;
+    justify-content: flex-start;
+    gap: 2em;
+}
+.need-website .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 40%;
+}
+.need-website .media figure svg{
+    width: 8em;
+}
